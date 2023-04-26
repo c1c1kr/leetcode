@@ -8,7 +8,7 @@ public:
         for(int i=0; i<magazine.length(); i++){
             // can acess a string position by using .[pos]
             char m = magazine[i];
-            magazineLetters[m]++;
+            magazineLetters[m]++;   // hash_map[key] => value
         }
         for(int j=0; j<ransomNote.length(); j++){
             
